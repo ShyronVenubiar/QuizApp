@@ -1,0 +1,179 @@
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-text-fill: #000000;
+    -fx-font-size: 18px;
+}
+
+.label, .button, .combo-box, .check-box {
+    -fx-text-fill: #000000;
+}
+
+.button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #000000;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #d5d5d5;
+}
+
+.combo-box, .check-box {
+    -fx-text-fill: #000000;
+}
+
+.combo-box, .check-box, .toggle-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+.toggle-button {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #aaaaaa;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #cccccc;
+}
+
+.question-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-text-fill: #000000;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: #ffffff;
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-control-inner-background: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.list-cell {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8;
+    -fx-text-fill: #000000;
+}
+
+.list-cell:hover {
+    -fx-background-color: #e6e6e6;
+}
+
+.list-cell:filled:selected, .list-cell:filled:selected:hover {
+    -fx-background-color: #d0d0d0;
+    -fx-text-fill: #000000;
+    -fx-border-color: #999999;
+}
+
+.progress-bar {
+    -fx-accent: #3399ff; /* Fortschrittsfarbe (blau) */
+    -fx-control-inner-background: #ffffff; /* Hintergrundfarbe */
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 4;
+}
+
+.inline-blank {
+    -fx-pref-width: 350px;   /* gewünschte Standardbreite */
+    -fx-min-width: 60px;     /* minimale Breite */
+    -fx-max-width: 300px;    /* maximale Breite */
+    -fx-padding: 4 6 4 6;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: #cfcfcf;
+    -fx-border-width: 1;
+    -fx-font-size: 0.95em;
+}
+
+/* danger-button: kompakt, roter Hintergrund, weiße Schrift, Hover */
+.danger-button {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 6 10 6 10;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 50px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 2, 0.0, 0, 1);
+    -fx-font-size: 10px;
+}
+
+.danger-button:hover {
+    -fx-background-color: #e53e3a;
+}
+
+.danger-button:focused {
+    -fx-border-color: rgba(255,255,255,0.25);
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+}
+
+.delete-button {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 6 10 6 10;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 25px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 2, 0.0, 0, 1);
+    -fx-font-size: 15px;
+}
+
+.delete-button:hover {
+    -fx-background-color: #e53935;
+}
+
+.delete-button:focused {
+    -fx-border-color: rgba(255,255,255,0.25);
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+}
+
+.create-button {
+    -fx-background-color: #9eefef;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 6 10 6 10;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 50px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 2, 0.0, 0, 1);
+    -fx-font-size: 10px;
+}
+
+.create-button:hover {
+    -fx-background-color: #609898;
+}
+
+.create-button:focused {
+    -fx-border-color: rgba(255,255,255,0.25);
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+}

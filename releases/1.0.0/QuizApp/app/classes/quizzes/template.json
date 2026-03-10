@@ -1,0 +1,68 @@
+[
+  {
+    "type": "SINGLE_CHOICE", //Multiple Choice Frage mit nur einer Antwortmöglichkeit
+    "intro": "Im folgenden sehen Sie ein Bild von unserem Sonnensystem:", //optional
+    "questionPicture": "images/java_quiz_images/java_quiz_Frage1.png", //optional
+    "question": "Was ist die Hauptstadt von Frankreich?",
+    "outro": "Tipp: Beginnen Sie mit dem kleinsten Planeten.", //optional
+    "options": [
+      {"text": "Berlin", "correct": false},
+      {"text": "Madrid", "correct": false},
+      {"text": "Paris", "correct": true},
+      {"text": "Rom", "correct": false}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE", //Multiple Choice Frage mit mehreren  Antwortmöglichkeiten
+    "intro": "Hier kommt gleich in Bild", //optional
+    "questionPicture": "images/java_quiz_images/java_quiz_Frage1.png", //optional
+    "question": "Welche ausgaben könnten erscheinen?",
+    "outro": "Hier könnte Ihre Werbung stehen", //optional
+    "options": [
+      {"text": "123456789123", "correct": false},
+      {"text": "123456789123456", "correct": false},
+      {"text": "null", "correct": true},
+      {"text": "Exception", "correct": true},
+      {"text": "123456789123456789", "correct": true}
+    ]
+  },
+  {
+    "type": "ORDER", //Antworten in die Richtige Reihenfolge bringen
+    "intro": "Im folgenden sehen Sie ein Bild von unserem Sonnensystem:", //optional
+    "questionPicture": "images/java_quiz_images/java_quiz_Frage1.png", //optional
+    "question": "Bringe die Planeten in die richtige Reihenfolge (von der Sonne aus):",
+    "outro": "Tipp: Beginnen Sie mit dem kleinsten Planeten.", //optional
+    "orderOptions": ["Merkur", "Venus", "Erde", "Mars", "Jupiter", "Saturn", "Uranus", "Neptun"],
+    "correctOrder": ["Merkur", "Venus", "Erde", "Mars", "Jupiter", "Saturn", "Uranus", "Neptun"]
+  },
+  {
+    "type": "IMAGE_CHOICE", //Das korrekte Bild auswählen
+    "intro": "Im folgenden sehen Sie ein Bild von unserem Sonnensystem:", //optional
+    "questionPicture": "images/java_quiz_images/java_quiz_Frage1.png", //optional
+    "question": "Was könnte hier nur richtig sein?",
+    "outro": "Tipp: Es ist Katze!", //optional
+    "images": [
+      { "path": "/images/fish.png", "label": "Fisch", "correct": false },
+      { "path": "/images/cat.png", "label": "Katze", "correct": true },
+      { "path": "/images/bird.png", "label": "Vogel", "correct": false },
+      { "path": "/images/snake.png", "label": "Schlange", "correct": false }
+    ]
+  },
+  {
+    "type": "DRAG_DROP_ASSIGNMENT", //Richtige Antworten per Drag n Drop anordnen
+    "intro": "Im folgenden sehen Sie ein Bild von unserem Sonnensystem:", //optional
+    "questionPicture": "images/java_quiz_images/java_quiz_Frage1.png", //optional
+    "question": "Ordne die Elemente korrekt zu:",
+    "outro": "Tipp: Es ist Katze!", //optional
+    "orderOptions": ["A", "B", "C", "D", "E", "F", "G"],
+    "correctOrder": ["C", "A", "F", "D", "B"] //Anzahl Antworten kann kleiner sein als Anzahl Antwortmöglichkeiten.
+  },
+  {
+    "type": "FILL_IN_THE_BLANK", //Lückentext
+    "intro": "", //optional
+    "questionPicture": "", //optional
+    "question": "Generell lassen sich fast alle ___ von einem ___ in einer ___ konvertieren.", //Lücken müssen durch "___" (drei unterstriche) dargestellt werden!!!
+    "outro": "", //optional
+    "correctAnswers": ["Primitiven", "Datentypen", "Wertebereich"] //Achtung, Antworten sind case-sensitive!!
+}
+]

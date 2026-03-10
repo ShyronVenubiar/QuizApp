@@ -1,0 +1,373 @@
+[
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Kann ein Konstruktor einen anderen Namen haben wie die Klasse?",
+    "outro": "",
+    "options": [
+      {"text": "Ja", "correct": false},
+      {"text": "Nein", "correct": true}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Ist die Verwendung von \"this\" oder \"super\" in einem Konstruktor erlaubt?",
+    "outro": "",
+    "options": [
+      {"text": "Ja", "correct": true},
+      {"text": "Nein", "correct":  false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Was sind Members in einem UML-Diagramm?",
+    "outro": "",
+    "options": [
+      {"text": "Nur die Variablen", "correct": false},
+      {"text": "Nur die Klassen", "correct": false},
+      {"text": "Alle Einträge","correct": true},
+      {"text": "Nur die Methoden", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welche der folgenden Methoden ist keine abstrakte Methode?",
+    "outro": "",
+    "options": [
+      {"text": "... canWalk() {...}","correct": true},
+      {"text": "... canWalk();", "correct":  false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welcher Modifizierer kann in einer Schnittstelle (Interface) eine Variable nicht definieren?",
+    "outro": "",
+    "options": [
+      {"text": "public static","correct": false},
+      {"text": "private final","correct": true},
+      {"text": "public final", "correct": false},
+      {"text": "static final", "correct":  false}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Was bedeutet: \".... vollständig von ihrer Implementierung abstrahieren\" und auf welche 2 Arten kann man das erreichen?",
+    "outro": "",
+    "options": [
+      {"text": "public interface Fahrzeug { void stoppen(); }","correct": true},
+      {"text": "public Fahrzeug { protected String stoppen(); }", "correct": false},
+      {"text": "public abstract class Fahrzeug { public abstract void stoppen(); }","correct": true},
+      {"text": "Gar nicht",  "correct": false},
+      {"text": "public class Fahrzeugteile extends Fahrzeug { void stoppen(); }", "correct":  false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welches Schlüsselwort wird gebraucht, um eine Vererbungs-Struktur zwischen zwei Klassen anzuzeigen?",
+    "outro": "",
+    "options": [
+      {"text": "implements", "correct": false},
+      {"text": "extends","correct": true},
+      {"text": "abstract", "correct": false},
+      {"text": "inherits", "correct":  false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Methoden der vererbenden Klasse können überschrieben werden",
+    "outro": "Wähle aus:",
+    "options": [
+      {"text": "Ja", "correct": true},
+      {"text": "Nein", "correct":  false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "images/java_quiz_op1b_images/jqop1b_9.png",
+    "question": "Was wird ausgegeben?",
+    "outro": "",
+    "options": [
+      {"text": "gar nichts", "correct": false},
+      {"text": "nicht viele", "correct": true},
+      {"text": "ganz ganz viele","correct": false},
+      {"text": "Eine Exception", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welches Schlüsselwort wird gebraucht, um eine abstrakte Klasse zu instanziieren?",
+    "outro": "",
+    "options": [
+      {"text": "abstract","correct": false},
+      {"text": "protected", "correct": false},
+      {"text": "extends", "correct": false},
+      {"text": "eine abstrakte Klasse kann nicht instanziiert werden","correct": true},
+      {"text": "class", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "images/java_quiz_op1b_images/jqop1b_11.png",
+    "question": "Was wird ausgegeben?",
+    "outro": "",
+    "options": [
+      {"text": "4 und 5", "correct": false},
+      {"text": "-1 und 1","correct": true},
+      {"text": "1 und 5", "correct": false},
+      {"text": "4 und eine Exception","correct": false},
+      {"text": "1 und -1", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "images/java_quiz_op1b_images/jqop1b_12.png",
+    "question": "Was wird ausgegeben?",
+    "outro": "",
+    "options": [
+      {"text": "345  345 3453", "correct": false},
+      {"text": "nichts, da nur die Werte geändert werden", "correct": false},
+      {"text": "315 245 3453", "correct": true},
+      {"text": "315 215 3453","correct": false},
+      {"text": "315 215 2152", "correct": false}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Prüfe ob die angegebenen Konstanten in den einzelnen Wrapper Klassen existieren.",
+    "outro": "Wähle aus, wenn sie existieren.",
+    "options": [
+      {"text": "Double.MIN_NORMAL","correct": true},
+      {"text": "Long.SIZE", "correct": true},
+      {"text": "Float.MAX_EXPONENT","correct": true},
+      {"text": "Boolean.BYTES", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "In Java gibt es für jeden primitiven Datentypen eine passende Wrapper-Klasse",
+    "questionPicture": "",
+    "question": "Von welcher Wrapper-Klasse wird der primitive Datentyp String umhüllt?",
+    "outro": "",
+    "options": [
+      {"text": "String","correct": false},
+      {"text": "char", "correct": false},
+      {"text": "String ist kein primitiver Datentyp, darum gibt es auch keine Wrapper-Klasse", "correct": true},
+      {"text": "Character","correct": false},
+      {"text": "string", "correct": false},
+      {"text": "boolean", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "images/java_quiz_op1b_images/jqop1b_15.png",
+    "question": "Was wird ausgegeben?",
+    "outro": "",
+    "options": [
+      {"text": "1", "correct": false},
+      {"text": "-1","correct": true},
+      {"text": "Eine Exception", "correct": false},
+      {"text": "Gar nichts", "correct": false}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Was bedeutet der Begriff \"Data Hiding Principle\"?",
+    "outro": "",
+    "options": [
+      {"text": "Es beschreibt die Praxis, interne Implementierungsdetails einer Klasse vor direktem Zugriff von außen zu verbergen.","correct": true},
+      {"text": "Es bedeutet, dass alle Daten einer Anwendung verschlüsselt werden müssen, um sie vor Hackern zu schützen.", "correct": false},
+      {"text": "Es ist ein Prinzip, das besagt, dass Daten in einer Datenbank immer in versteckten Tabellen gespeichert werden sollen.", "correct": false},
+      {"text": "Es fordert, dass Variablen in einem Programm zufällig benannt werden, damit sie schwerer zu finden sind.", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welches Schlüsselwort zeigt eine Vererbungsstruktur zwischen zwei Klassen an?",
+    "outro": "",
+    "options": [
+      {"text": "Override", "correct": false},
+      {"text": "extends","correct": true},
+      {"text": "implements","correct": false},
+      {"text": "extend","correct": false},
+      {"text": "implement", "correct":  false}
+    ]
+  },
+  {
+    "type": "FILL_IN_THE_BLANK",
+    "intro": "Vervollständigen Sie den folgenden Satz.",
+    "questionPicture": "",
+    "question": "Die Klasse ___ besitzt keinen primitiven Datentypen",
+    "outro": "",
+    "correctAnswers": ["String"]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Muss jedes Java-Programm über eine \"main\"-Methode verfügen?",
+    "outro": "",
+    "options": [
+      {"text": "Ja","correct": true},
+      {"text": "Nein", "correct":  false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welche der folgenden Antworten ist korrekt, um eine Klasse vollständig von ihrer Implementierung zu abstrahieren?",
+    "options": [
+      {"text": "Objects","correct": false},
+      {"text": "Packages","correct": false},
+      {"text": "Interfaces", "correct": true},
+      {"text": "keins", "correct":  false}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welche dieser Methoden existiert nicht für den Typen ArrayList?",
+    "options": [
+      {"text": "add","correct": false},
+      {"text": "contains","correct": false},
+      {"text": "get", "correct": false},
+      {"text": "addAll", "correct": false},
+      {"text": "getAll", "correct": true}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Was kann ein Enum alles beheimaten?",
+    "outro": "",
+    "options": [
+      {"text": "Konstanten", "correct": true},
+      {"text": "Attribute", "correct": true},
+      {"text": "Methoden", "correct": true},
+      {"text": "Konstruktor", "correct": true},
+      {"text": "main-Methode","correct": false},
+      {"text": "Annotations", "correct": false},
+      {"text": "nichts davon", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Was passiert, wenn eine Klasse eine abstrakte Methode nicht implementiert?",
+    "outro": "",
+    "options": [
+      {"text": "Die Klasse wird automatisch abstrakt","correct": true},
+      {"text": "Es tritt ein Compilerfehler auf","correct": false},
+      {"text": "Die Methode wird ignoriert", "correct": false},
+      {"text": "Die Klasse wird final", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welches der folgenden Schlüsselwörter wird verwendet, um eine Methode in einer Unterklasse zu überschreiben?",
+    "outro": "",
+    "options": [
+      {"text": "override","correct": false},
+      {"text": "@Override", "correct": true},
+      {"text": "extends","correct": false},
+      {"text": "implements", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welche der folgenden Aussagen über Wrapper-Klassen ist korrekt?",
+    "outro": "",
+    "options": [
+      {"text": "Jede Wrapper-Klasse enthält mindestens eine Konstante","correct": false},
+      {"text": "Wrapper-Klassen sind primitive Datentypen","correct": false},
+      {"text": "Wrapper-Klassen sind unveränderlich (immutable)","correct": true},
+      {"text": "Wrapper-Klassen können nicht in Collections verwendet werden", "correct": false}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Was ist der Standard-Zugriffsmodifikator für Klassen in Java, wenn keiner angegeben wird?",
+    "outro": "",
+    "options": [
+      {"text": "public", "correct": false},
+      {"text": "private","correct": false},
+      {"text": "protected", "correct": false},
+      {"text": "package-private", "correct": true}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welche der folgenden Methoden existieren in der Klasse String?",
+    "outro": "",
+    "options": [
+      {"text": "split()","correct": true},
+      {"text": "contains()","correct": true},
+      {"text": "reverse()","correct": false},
+      {"text": "substring()", "correct": true}
+    ]
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Was bedeutet Polymorphismus in Java?",
+    "outro": "",
+    "options": [
+      {"text": "Eine Klasse kann mehrere Konstruktoren haben", "correct": false},
+      {"text": "Eine Methode kann in verschiedenen Formen existieren","correct": true},
+      {"text": "Eine Variable kann mehrere Werte gleichzeitig speichern", "correct": false},
+      {"text": "Eine Klasse kann mehrere Interfaces implementieren", "correct":  false}
+    ]
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "intro": "",
+    "questionPicture": "",
+    "question": "Welche der folgenden Aussagen über abstrakte Klassen sind korrekt?",
+    "outro": "",
+    "options": [
+      {"text": "Abstrakte Klassen können keine Konstruktoren haben", "correct": false},
+      {"text": "Abstrakte Klassen können sowohl abstrakte als auch konkrete Methoden enthalten","correct": true},
+      {"text": "Abstrakte Klassen dürfen nicht erweitert werden","correct": false},
+      {"text": "Abstrakte Klassen müssen immer final sein", "correct": false}
+      ]
+  }
+]

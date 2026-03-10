@@ -1,0 +1,185 @@
+[
+  {
+    "type": "SINGLE_CHOICE",
+    "question": "Wie viele Kontinente gibt es auf der Erde?",
+    "options": [
+      {
+        "text": "5",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": false
+      },
+      {
+        "text": "7",
+        "correct": true
+      },
+      {
+        "text": "8",
+        "correct": false
+      }
+    ],
+    "intro": "Geographie",
+    "questionPicture": "",
+    "outro": ""
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "question": "In welchem Spiel kämpft man gegen den Enderdrachen?",
+    "options": [
+      {
+        "text": "Terraria",
+        "correct": false
+      },
+      {
+        "text": "Minecraft",
+        "correct": true
+      },
+      {
+        "text": "Valheim",
+        "correct": false
+      },
+      {
+        "text": "Rust",
+        "correct": false
+      }
+    ],
+    "intro": "Gaming",
+    "questionPicture": "",
+    "outro": ""
+  },
+  {
+    "type": "IMAGE_CHOICE",
+    "question": "Welches Tier ist das schnellste an Land?",
+    "images": [
+      {
+        "path": "/images/Beispielquiz/Gemini_Gepard.png",
+        "label": "Gepard",
+        "correct": true
+      },
+      {
+        "path": "/images/Beispielquiz/Gemini_Gazelle.png",
+        "label": "Gazelle",
+        "correct": false
+      },
+      {
+        "path": "/images/Beispielquiz/Gemini_Lion.png",
+        "label": "Löwe",
+        "correct": false
+      },
+      {
+        "path": "/images/Beispielquiz/Gemini_Tiger.png",
+        "label": "Tiger",
+        "correct": false
+      }
+    ],
+    "intro": "Tiere",
+    "questionPicture": "",
+    "outro": ""
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "question": "Wer malte das berühmte Gemälde Mona Lisa?",
+    "options": [
+      {
+        "text": "Vincent van Gogh",
+        "correct": false
+      },
+      {
+        "text": "Pablo Picasso",
+        "correct": false
+      },
+      {
+        "text": "Leonardo da Vinci",
+        "correct": true
+      },
+      {
+        "text": "Michelangelo",
+        "correct": false
+      }
+    ],
+    "intro": "Kunst",
+    "questionPicture": "",
+    "outro": ""
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "question": "Welche Einheit misst elektrische Spannung?",
+    "options": [
+      {
+        "text": "Watt",
+        "correct": false
+      },
+      {
+        "text": "Volt",
+        "correct": true
+      },
+      {
+        "text": "Ampere",
+        "correct": false
+      },
+      {
+        "text": "Ohm",
+        "correct": false
+      }
+    ],
+    "intro": "Physik",
+    "questionPicture": "",
+    "outro": ""
+  },
+  {
+    "type": "ORDER",
+    "question": "Bringe diese Planeten unseres Sonnensystems in die richtige Reihenfolge von der Sonne nach außen",
+    "orderOptions": [
+      "Merkur",
+      "Venus",
+      "Erde",
+      "Mars"
+    ],
+    "correctOrder": [
+      "Merkur",
+      "Venus",
+      "Erde",
+      "Mars"
+    ],
+    "intro": "",
+    "questionPicture": "",
+    "outro": ""
+  },
+  {
+    "type": "FILL_IN_THE_BLANK",
+    "question": "Der höchste Berg der Erde ist der Mount ___",
+    "correctAnswers": [
+      "Everest"
+    ],
+    "intro": "Lückentext",
+    "questionPicture": "",
+    "outro": ""
+  },
+  {
+    "type": "MULTIPLE_CHOICE",
+    "question": "Welche der folgenden Programmiersprachen sind objektorientiert?",
+    "options": [
+      {
+        "text": "C",
+        "correct": false
+      },
+      {
+        "text": "C++",
+        "correct": true
+      },
+      {
+        "text": "C#",
+        "correct": true
+      },
+      {
+        "text": "Java",
+        "correct": true
+      }
+    ],
+    "intro": "",
+    "questionPicture": "",
+    "outro": "(Mehrere Antworten sind richtig)"
+  }
+]
