@@ -1,4 +1,0 @@
-java_op1b_vorbereitung.json
-java_op2a_vorbereitung.json
-java_quiz.json
-zp_wiso_quiz.json
